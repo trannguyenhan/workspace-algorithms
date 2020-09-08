@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597244245 source:/media/trannguyenhan01092000/LEARN/[cpp]CodeBlocks/HoanViPhiaTruoc/main.cpp
+	<iostream>
+	<vector>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1595915107 source:/media/trannguyenhan01092000/LEARN/[cpp]CodeBlocks/ContestProject/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<math.h>
+
