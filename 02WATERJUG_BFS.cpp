@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int MAX = 1000;
+const int MAX = 10000;
 
 // Binh nuoc co luong nuoc hien tai la luongnuoc, va chua duoc toi da dungtich lit nuoc
 struct binhNuoc{
@@ -17,13 +17,12 @@ void inputData(){
     cin >> a >> b >> c;
     binhA.dungtich = a;
     binhB.dungtich = b;
-    binhA.luongnuoc = 0;
-    binhB.luongnuoc = 0;
 }
 
 // Co 2 cach do nuoc :
 // C1 : do tu binh nay sang binh kia ( neu binh co chua nuoc)
 // C2 : do tu be vao ( neu do tu be vao thi chi co do day binh)
+// C3 : do tu binh vao be ( do tu binh vao be thi binh do het)
 // Th1 : do nuoc tu be vao mot binh
 void pourWater(binhNuoc &binh){
     binh.luongnuoc = binh.dungtich;
@@ -42,9 +41,14 @@ void pourWater(binhNuoc &binh1, binhNuoc &binh2){
     }
 }
 
+// Them 1 tham so nua de xac dinh va binh nay do vao be
+void pourWater(binhNuoc &binh, bool dovaobe){
+    binh.luongnuoc = 0;
+}
+
 // Kiem tra dieu kien de bai
 // Neu co 1 trong 2 binh co c lit nuoc -> true
-bool checkDK(binhNuoc binh1, binhNuoc binh2){
+bool checkStop(binhNuoc binh1, binhNuoc binh2){
     if(binh1.luongnuoc == c || binh2.luongnuoc == c)
         return true;
     else return false;
@@ -82,7 +86,7 @@ void bfs(){
         binhTempB = binhB;
 
         // Kiem tra dieu kien de bai truoc khi bat dau xu li
-        if(checkDK(binhA,binhB)){
+        if(checkStop(binhA,binhB)){
             cout << dist[pair<int,int>(binhA.luongnuoc,binhB.luongnuoc)];
             return;
         }
@@ -124,6 +128,27 @@ void bfs(){
 
         // Th4 : do tu binh A vao binh B
         pourWater(binhA,binhB);
+        if(!visited[binhA.luongnuoc][binhB.luongnuoc]){
+            Q.push(pair<int,int>(binhA.luongnuoc,binhB.luongnuoc));
+            dist[pair<int,int>(binhA.luongnuoc,binhB.luongnuoc)] = dist[pair<int,int>(binhTempA.luongnuoc,binhTempB.luongnuoc)] + 1;
+            visited[binhA.luongnuoc][binhB.luongnuoc] = true;
+            //cout << "(" << binhA.luongnuoc << "," << binhB.luongnuoc << ")" << endl;
+        }
+        binhA = binhTempA;
+        binhB = binhTempB; // Tra lai trang thai ban dau cho binh A,B
+
+        // Th5 : Do tu binh 1 vao be
+        pourWater(binhA,true);
+        if(!visited[binhA.luongnuoc][binhB.luongnuoc]){
+            Q.push(pair<int,int>(binhA.luongnuoc,binhB.luongnuoc));
+            dist[pair<int,int>(binhA.luongnuoc,binhB.luongnuoc)] = dist[pair<int,int>(binhTempA.luongnuoc,binhTempB.luongnuoc)] + 1;
+            visited[binhA.luongnuoc][binhB.luongnuoc] = true;
+            //cout << "(" << binhA.luongnuoc << "," << binhB.luongnuoc << ")" << endl;
+        }
+        binhA = binhTempA;
+        binhB = binhTempB; // Tra lai trang thai ban dau cho binh A,B
+
+        pourWater(binhB,true);
         if(!visited[binhA.luongnuoc][binhB.luongnuoc]){
             Q.push(pair<int,int>(binhA.luongnuoc,binhB.luongnuoc));
             dist[pair<int,int>(binhA.luongnuoc,binhB.luongnuoc)] = dist[pair<int,int>(binhTempA.luongnuoc,binhTempB.luongnuoc)] + 1;
