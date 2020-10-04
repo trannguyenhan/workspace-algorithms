@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// init variable
 int n,b;
 vector<int> vt;
 
 void inputData(){
-    cin >> n;
-    cin >> b;
-
+    cin >> n >> b;
     for(int i=0; i<n; i++){
         int temp;
         cin >> temp;
@@ -16,66 +13,47 @@ void inputData(){
     }
 }
 
-// Tra ve chi so max cua day vt tu a toi b
-int findMax(int a, int b){
-    int im = a;
+// Tim max cua vt tu a toi b -> tra ve chi so cua so do trong vt
+int indexMax(int a, int b){
+    int imaxVt = a;
     for(int i=a; i<b; i++){
-        if(vt[i] > vt[im]) im = i;
+        if(vt[i] > vt[imaxVt]) imaxVt = i;
     }
-    return im;
+    return imaxVt;
 }
 
-bool handlingLeft(int imax, int &signalmax){
-    int foo = 0;
-    int r = 0;
-    for(int i=1; i<imax; i++){
-        if(vt[foo] > vt[i] + b || vt[imax] > vt[i] + b){
-            int signal = vt[foo] + vt[imax] - 2*vt[i];
-            if(signal > signalmax) signalmax = signal;
-        }
-
-        r++;
-        if(vt[r] > vt[foo]) foo = r;
-    }
-
-    if(signalmax != 0) return true;
-    else return false;
-}
-
-bool handlingRight(int imax, int &signalmax){
-    int foo = n-1;
-    int r = n-1;
-    for(int i=n-2; i>imax; i--){
-        if(vt[foo] > vt[i] + b || vt[imax] > vt[i] + b){
-            int signal = vt[foo] + vt[imax] - 2*vt[i];
-            if(signal > signalmax) signalmax = signal;
-        }
-
-        r--;
-        if(vt[r] > vt[foo]) foo = r;
-    }
-
-    if(signalmax != 0) return true;
-    else return false;
-}
 
 void solve(){
     inputData();
 
-    // Mot so ta can tim chac chan la so lon nhat cua day
-    // Tim luon so do
-    int imax = findMax(0,n);
-    if(vt[imax] < b){
-        cout << "-1"; // Neu tin hieu lon nhat < b => chac chan la 1 day
-        return;
+    int ans = -1;
+    int imaxVt = indexMax(0,n);
+    int imaxLeft = 0;
+    int imaxRight = 0;
+
+    for(int i=1; i<imaxVt; i++){
+        imaxLeft = vt[imaxLeft] > vt[i]?imaxLeft:i;
+        int temp1, temp2;
+        temp2 = vt[imaxVt];
+        temp1 = vt[imaxLeft];
+        if(temp1-vt[i] >= b && temp2-vt[i] >= b){
+            int signal = temp1 + temp2 - 2*vt[i];
+            ans = max(ans,signal);
+        }
+     }
+
+     for(int i=n-2; i>imaxVt; i--){
+        imaxRight = vt[imaxRight] > vt[i]?imaxRight:i;
+        int temp1, temp2;
+        temp1 = vt[imaxVt];
+        temp2 = vt[imaxRight];
+        if(temp1-vt[i] > b && temp2-vt[i] > b){
+            int signal = temp1 + temp2 - 2*vt[i];
+            ans = max(ans,signal);
+        }
     }
 
-    // Bay gio can kiem tra 2 ben cua imax
-    int signalmaxLeft = 0, signalmaxRight = 0;
-    if(handlingLeft(imax,signalmaxLeft) || handlingRight(imax,signalmaxRight)){
-        cout << max(signalmaxLeft,signalmaxRight);
-    }
-
+    cout << ans;
 }
 
 int main(){
