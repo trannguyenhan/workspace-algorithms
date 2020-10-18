@@ -3,38 +3,48 @@ using namespace std;
 const int MAX = 100000;
 int n, k;
 int arr[MAX];
-int cnt = 1;
+int X[MAX]; // Luu tru duong di
+bool visited[MAX]; // Mang danh dau duong di
+int cnt = 0;
+
+bool check(int a, int i){
+    if(a>n) return false;
+    if(!visited[i]) return true;
+    return false;
+}
+
+void solution(){
+    cnt++;
+    if(cnt == k){
+        for(int i=0; i<n; i++)
+            cout << X[i] << " ";
+    }
+}
+
+void TRY(int a){
+    for(int i=0; i<n; i++){
+        //if(cnt==k) return;
+        if(check(a,i)){
+            X[a-1] = arr[i];
+
+            visited[i] = true;
+
+            if(a == n){
+                solution();
+            } else
+                if(cnt<=k) TRY(a+1);
+
+            visited[i] = false;
+        }
+    }
+}
 
 int main(){
-    ios_base::sync_with_stdio(0);
     cin >> n >> k;
     for(int i=0; i<n; i++)
         arr[i] = i+1; // Cau hinh dau tien
 
-    while(cnt<k){
-        int i = n-2;
-        while(i>=0 && arr[i] > arr[i+1]) i--;
-
-        if(i<0){
-            cout << "-1";
-            return 0;
-        }
-
-        int j = n-1;
-        while(arr[j] < arr[i]) j--;
-        swap(arr[j],arr[i]);
-
-        int a = i+1;
-        int b = n-1;
-        while(a<b){
-            swap(arr[a],arr[b]);
-            a++;
-            b--;
-        }
-        cnt++;
-    }
-
-    for(int i=0; i<n; i++)
-        cout << arr[i] << " ";
+    TRY(1);
+    if(cnt < k) cout << "-1";
     return 0;
 }
