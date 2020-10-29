@@ -3,6 +3,7 @@ using namespace std;
 const int MAX = 100000;
 int n, k ,ii;
 int cnt = 0;
+int cnt1 = 0;
 int X[MAX];
 
 bool check(int a, int i){
@@ -15,6 +16,7 @@ bool check(int a, int i){
         }
         if(r >= ii-1) return false;
     }
+    cnt1 = 0;
     return true;
 }
 

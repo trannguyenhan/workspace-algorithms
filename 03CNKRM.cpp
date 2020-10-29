@@ -3,7 +3,6 @@ using namespace std;
 const int MAX = 100000;
 int n,m,k;
 int arr[MAX];
-int cnt;
 
 // In ket qua
 void printResult(){
@@ -12,13 +11,13 @@ void printResult(){
     }
 }
 
-void solve(){
-    cin >> n >> k >> m;
+int main(){
+    cin >> k >> n;
     for(int i=0; i<k; i++){
         arr[i] = i+1;
     }
 
-    cnt = 1;
+    int cnt = 1;
 
     while(k>0){
         // Neu khong phai truong hop dac biet gi, tang phan tu foo cung va in ket qua
@@ -44,15 +43,6 @@ void solve(){
     }
 
     //printResult();
-}
-
-int main(){
-    int T;
-    cin >> T;
-    while(T>0){
-        solve();
-        cout << cnt % m<< endl;
-        T--;
-    }
+    cout << cnt;
     return 0;
 }
