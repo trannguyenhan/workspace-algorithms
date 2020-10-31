@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1595337081 source:/media/trannguyenhan01092000/LEARN/[cpp]CodeBlocks/ProjectProject/main.cpp
-	<iostream>
-	<vector>
-	<algorithm>
-	<fstream>
-	<math.h>
-	<sstream>
-

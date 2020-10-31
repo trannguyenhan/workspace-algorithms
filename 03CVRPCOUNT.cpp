@@ -8,8 +8,10 @@ int x[MAX]; // luu lai cac dia diem da di qua
 int y[MAX]; // khong mat tinh tong quat, gia su y1<y2<...<yk, them linh canh y0 = 0
 int load[MAX]; // tong khoi luong tren xe k
 int cnt;
+int segment;
 
 void input(){
+    segment = 0;
     cnt = 0;
     d[0] = 0;
     y[0] = 0;
@@ -28,35 +30,36 @@ bool check_Y(int a, int i){
 
 bool check_X(int a, int b, int i){
     if(i==0) return true;
+    if(load[a] + d[i] > Q) return false;
     if(visited[i]) return false;
     return true;
 }
 
 void solution(){
-    for(int i=0; i<K; i++)
-        if(load[i] > Q) return;
-    cnt++;
+    if(segment == n)
+        cnt++;
 }
 
 void TRY_X(int b, int a){
     for(int i=0; i<=n; i++){
         if(check_X(a,b,i)){
-            x[b] = i;
+            x[b] = i; // vi tri tiep theo cua diem b la diem i
             visited[i] = true;
             load[a] += d[x[b]];
+            segment++;
 
-            if(b == n-K+a-1 || a+1 == K){
-                solution();
+            if(i!=0){
+                TRY_X(i,a);
             } else {
-                if(i>0){
-                    TRY_X(b+1,a);
+                if(a==K){
+                    solution();
                 } else {
-                    TRY_X(b+1,a+1);
+                    TRY_X(y[a+1],a+1);
                 }
-
             }
 
             // recover data structure
+            segment--;
             visited[i] = false;
             load[a] -= d[x[b]];
         }
@@ -71,7 +74,7 @@ void TRY_Y(int a){
             load[a] += d[y[a]]; // tai trong cua xe a + them phan di qua dia diem ya
 
             if(a == K){
-                TRY_X(1,1);
+                TRY_X(y[1],1);
             } else {
                 TRY_Y(a+1);
             }
