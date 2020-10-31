@@ -1,0 +1,7 @@
+Họ và tên : Nguyễn Quang Huy
+Lớp : Khoa học máy tính 03 - K63
+MSSV : 20183554
+
+/* Lưu ý nho nhỏ với thầy giáo : Trong bài tô màu đồ thị, theo như ví dụ thầy có bỏ đỉnh 0. Lên trong bài em đã cố gắng viết code để cho các đỉnh của đồ thị bắt đầu từ đỉnh 1. Mong thầy chú ý với bộ test đưa vào ạ. 
+Và còn 1 điều nho nhỏ nữa là số màu em gán để tô mới có gần 40 màu, nghĩa là thầy test với trường hợp nhiều hơn 40 đỉnh thì sẽ không tô
+được ạ, mong thầy nếu có test với bộ test lớn hơn thì thầy thêm màu vào phần mảng tô màu giúp em với ạ. */
