@@ -1,0 +1,22 @@
+Bài A : 
+Cho vào một chuỗi str, mỗi một lượt thao tác thì bạn có thể thêm một ký tự vào cuối chuỗi str. Hãy tính số thao tác ít nhất để biến chuỗi str thành chuỗi gương.
+
+Chuỗi gương là một chuỗi khi mà ta đảo ngược chuỗi đó lại thì vẫn được chuỗi ban đầu. Ví dụ: "aba", "aabbaa" là chuỗi gương.
+
+Ví dụ:
+
+Với str = "aadbbd" thì makePalindrome(str) = 2.
+
+Ta sẽ thêm "aa" vào cuối chuỗi.
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+    [Đầu vào] String s1
+    1 <= s1.length <= 10^5
+    s1 chứa các ký tự thường, hoa và số.
+
+    [Đầu ra] Integer.
+
+

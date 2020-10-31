@@ -1,0 +1,17 @@
+Bai D : 
+Trong một trận bóng đá, huấn luyện viên ghi nhận lại số áo của các cầu thủ phạm lỗi. Nếu cầu thủ nào mắc 3 lần phạm lỗi thì sẽ bị thay ra. Gồm 11 cầu thủ của đội có số áo từ 1 đến 11. Cầu thủ thay vô mặc đúng số áo của cầu thủ thay ra. Bạn hãy xác định danh sách các cầu thủ bị thay ra theo thứ tự thời gian. Biết rằng những lần phạm lỗi của các cầu thủ, đêu được ghi số áo vào mảng a.
+
+Ví dụ:
+
+    Với a = [2,4,3,2,3,7,3,2] thì kết quả foul_in_football(a) = [3,2]
+    Với a = [3,3,3,3,3,3] thì kết quả foul_in_football(a) = [3,3]
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+    [Đầu vào] array of integer a.
+    0 ≤ a.size ≤ 106
+    1 ≤ a[i] ≤ 11
+    [Đầu ra] array of integer.
+    Số áo của các cầu thủ bị thay ra theo thời gian

@@ -1,0 +1,22 @@
+Cho một tam giác đều đã chứa các số trên tam giác đó. Bắt đầu từ đỉnh rồi di chuyển đến các số liền kề bên dưới. Hãy tính đường đi có tổng lớn nhất.
+
+Ví dụ:
+
+    Với arr = [[3],[7,4],[2,4,6],[8,5,9,3]]. Đầu ra maximumPath(arr) = 23.
+
+      Giải thích:	3
+      		       7 4
+      		      2 4 6
+      		     8 5 9 3	
+		-> 3 7 4 9
+                               
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+    [Đầu vào] Array Of Integers arr.
+    0 ≤ arr.size ≤ 300
+    0 ≤ arr[i] ≤ 103
+    [Đầu ra] Integer
+    Đường đi có tổng lớn nhất.
+

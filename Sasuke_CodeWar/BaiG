@@ -1,0 +1,21 @@
+Bai G : 
+Khi A viết tên của mình trong bàn phím thì bạn ấy lỡ đè phím làm tên của mình bị dài ra. Bạn hãy kiểm tra xem chữ viết của cậu ấy vừa nhập có đúng tên của cậu ấy không nhé.
+
+Ví dụ:
+
+    Với name = "abc", typed="aabccc". Đầu ra possibleName(name,typed) = true.
+
+     Giải thích: bạn A đè phím a và c trong lúc gõ.
+
+    Với name = "abc", typed="abcd". Đầu ra possibleName(name,typed) = false.
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+    [Đầu vào] String name, typed
+    1 ≤ name.length, typed.length ≤ 104
+
+    [Đầu ra] Boolean
+    Chuỗi sau khi được mã hóa
+

@@ -1,0 +1,25 @@
+Bai E : 
+Nhân ngày sinh nhật của anh trai mình, Bảo gửi cho anh một cái rương chứa món quà bên trong. Để thử thách anh, Bảo đã mã hóa mật khẩu để mở rương theo cách sau:
+
+    Gộp tất cả các đoạn chuỗi giống nhau thành: x{abc} với x là một số nguyên dương. Khi giải mã sẽ là x lần chuỗi abc liên tiếp
+    Các kí tự không thỏa điều kiện mã hóa trên, giải mã sẽ giữ lại
+
+Mật khẩu mã hóa sẽ là chuỗi s. Vì người anh ấy chỉ giỏi Toán, còn việc code thì khá gà, nên bạn hãy giúp anh ấy giải nó nhé!
+
+Đề bài đảm luôn có các số trước "{", và cá chuỗi bị mã hóa không nằm trong nhau. Ví dụ không có trường hợp 5{3{ab}}
+
+Ví dụ:
+
+    Với s = "ab3{c}" thì kết quả extendString(s) = "abccc"
+
+    Với s = "10{a}" thì kết quả extendString(s) = "aaaaaaaaaa"
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+    [Đầu vào] string s.
+    0 ≤ s.length ≤ 106
+
+    [Đầu ra] string.
+    Mật khẩu sau khi giải mã
+

@@ -1,0 +1,22 @@
+Bai J : 
+Bạn B qua nhà bạn A chơi nhưng vì chán quá nên A nghĩ ra một trò chơi như sau: Cho một đống đá gồm n viên đá,  mỗi lần chỉ được bốc ra 1 viên, 4 viên, 9 viên, i^2 viên và nếu không thể bốc được nữa thì họ sẽ thua và A đi trước. Cả 2 bạn đều là những người giỏi. Bạn hãy tính xem với số lượng đống đá như vậy thì ai sẽ dành chiến thắng(trả về 1 nếu là người A thắng và 2 nếu là người B thắng).
+
+Ví dụ:
+
+    Với n = 2. Đầu ra stoneGame(n) = 2.
+
+     Giải thích: Bạn A bốc 1 viên và bạn B bốc 1 viên => bạn B thắng
+
+    Với n = 4. Đầu ra stoneGame(n) = 1.
+
+     Giải thích: Bạn A bốc 4 viên => bạn A thắng
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+    [Đầu vào] Integer
+    0 ≤ n ≤ 105
+
+    [Đầu ra] Integer
+    Kết quả yêu cầu đề bài
+

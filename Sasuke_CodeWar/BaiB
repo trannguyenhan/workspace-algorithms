@@ -1,0 +1,17 @@
+Bai B :
+Cho vào hai mảng a,b. Bạn hãy viết chương trình trả về mảng c gồm các phần tử đôi một khác nhau đều xuất hiện ở hai mảng a,b. Mảng c được trả về theo thứ tự từ bé đến lớn.
+
+Ví dụ
+
+Với a = [1, 2, 3, 1, 3] và b = [3, 2, 2, 3, 5, 6, 7, 4] thì addArray(arr) = [2, 3].
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+    [Đầu vào] Array.Integer a,b
+    0 <= a.length, b.length <= 10^5
+    0 <= a[i], b[i] <= 10^5
+
+    [Đầu ra ]Array.Integer
+

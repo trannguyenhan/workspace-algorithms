@@ -1,0 +1,16 @@
+Bai C :
+Một số được gọi là "reversePrime" nếu như đảo ngược các chữ số của số đó thì ta được một số nguyên tố. Ví dụ 31, 32, 2, 3 là các số "reversePrime". Bạn hãy giúp DAN tìm các số reversePrime trong khoảng [L, R], kết quả trả về được sắp xếp tăng dần.
+
+Ví dụ:
+
+Với L = 0 và R = 20 thì reversePrime(L,R) = [2, 3, 5, 7, 11, 13, 14, 16, 17].
+
+Với L = 20 và R = 30 thì reversePrime(L,R) = [].
+
+Đầu vào/ Đầu ra:
+
+    Giới hạn thời gian chạy: 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, GO và Js.
+    [Đầu vào] Integer L, R
+    0 <= L <= R <= 10^7
+    [Đầu ra] Array.Integer
+

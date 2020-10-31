@@ -1,0 +1,18 @@
+Bai I :
+Cho một mảng arr bao gồm lượng tiền ở các căn nhà. Có một tên trộm muốn đánh cắp tiền ở các căn nhà đó nhưng với điều kiện không được đánh cắp ở các căn nhà gần nhau. Hãy tính số tiền lớn nhất mà tên trộm thu được.
+
+Ví dụ:
+
+    Với arr = [1,2,3,1]. Đầu ra stealHouse(arr) = 4.
+
+     Giải thích: Có thể đánh cắp ở ngôi nhà 0,2.
+
+Đầu vào/Đầu ra:
+
+    [Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+    [Đầu vào] Array Of Integers arr.
+    0 ≤ arr.size ≤ 104
+    1 ≤ arr[i] ≤ 103
+    [Đầu ra] Integer
+    Số lượng tiền có thể thu được
+
