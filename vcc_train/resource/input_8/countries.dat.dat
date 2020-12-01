@@ -1,0 +1,239 @@
+Country{code=NZL, name=New Zealand, continent=Oceania, surfaceArea=270534.0, population=3862000, gnp=54669.0, capital=3499}
+Country{code=FJI, name=Fiji Islands, continent=Oceania, surfaceArea=18274.0, population=817000, gnp=1536.0, capital=764}
+Country{code=PNG, name=Papua New Guinea, continent=Oceania, surfaceArea=462840.0, population=4807000, gnp=4988.0, capital=2884}
+Country{code=GLP, name=Guadeloupe, continent=North America, surfaceArea=1705.0, population=456000, gnp=3501.0, capital=919}
+Country{code=STP, name=Sao Tome and Principe, continent=Africa, surfaceArea=964.0, population=147000, gnp=6.0, capital=3172}
+Country{code=MHL, name=Marshall Islands, continent=Oceania, surfaceArea=181.0, population=64000, gnp=97.0, capital=2507}
+Country{code=WLF, name=Wallis and Futuna, continent=Oceania, surfaceArea=200.0, population=15000, gnp=0.0, capital=3536}
+Country{code=CUB, name=Cuba, continent=North America, surfaceArea=110861.0, population=11201000, gnp=17843.0, capital=2413}
+Country{code=SDN, name=Sudan, continent=Africa, surfaceArea=2505813.0, population=29490000, gnp=10162.0, capital=3225}
+Country{code=GMB, name=Gambia, continent=Africa, surfaceArea=11295.0, population=1305000, gnp=320.0, capital=904}
+Country{code=MYS, name=Malaysia, continent=Asia, surfaceArea=329758.0, population=22244000, gnp=69213.0, capital=2464}
+Country{code=MYT, name=Mayotte, continent=Africa, surfaceArea=373.0, population=149000, gnp=0.0, capital=2514}
+Country{code=TWN, name=Taiwan, continent=Asia, surfaceArea=36188.0, population=22256000, gnp=256254.0, capital=3263}
+Country{code=POL, name=Poland, continent=Europe, surfaceArea=323250.0, population=38653600, gnp=151697.0, capital=2928}
+Country{code=OMN, name=Oman, continent=Asia, surfaceArea=309500.0, population=2542000, gnp=16904.0, capital=2821}
+Country{code=SUR, name=Suriname, continent=South America, surfaceArea=163265.0, population=417000, gnp=870.0, capital=3243}
+Country{code=ARE, name=United Arab Emirates, continent=Asia, surfaceArea=83600.0, population=2441000, gnp=37966.0, capital=65}
+Country{code=KEN, name=Kenya, continent=Africa, surfaceArea=580367.0, population=30080000, gnp=9217.0, capital=1881}
+Country{code=ARG, name=Argentina, continent=South America, surfaceArea=2780400.0, population=37032000, gnp=340238.0, capital=69}
+Country{code=GNB, name=Guinea-Bissau, continent=Africa, surfaceArea=36125.0, population=1213000, gnp=293.0, capital=927}
+Country{code=ARM, name=Armenia, continent=Asia, surfaceArea=29800.0, population=3520000, gnp=1813.0, capital=126}
+Country{code=UZB, name=Uzbekistan, continent=Asia, surfaceArea=447400.0, population=24318000, gnp=14194.0, capital=3503}
+Country{code=BTN, name=Bhutan, continent=Asia, surfaceArea=47000.0, population=2124000, gnp=372.0, capital=192}
+Country{code=SEN, name=Senegal, continent=Africa, surfaceArea=196722.0, population=9481000, gnp=4787.0, capital=3198}
+Country{code=TGO, name=Togo, continent=Africa, surfaceArea=56785.0, population=4629000, gnp=1449.0, capital=3332}
+Country{code=IRL, name=Ireland, continent=Europe, surfaceArea=70273.0, population=3775100, gnp=75921.0, capital=1447}
+Country{code=FLK, name=Falkland Islands, continent=South America, surfaceArea=12173.0, population=2000, gnp=0.0, capital=763}
+Country{code=IRN, name=Iran, continent=Asia, surfaceArea=1648195.0, population=67702000, gnp=195746.0, capital=1380}
+Country{code=QAT, name=Qatar, continent=Asia, surfaceArea=11000.0, population=599000, gnp=9472.0, capital=2973}
+Country{code=BDI, name=Burundi, continent=Africa, surfaceArea=27834.0, population=6695000, gnp=903.0, capital=552}
+Country{code=NLD, name=Netherlands, continent=Europe, surfaceArea=41526.0, population=15864000, gnp=371362.0, capital=5}
+Country{code=IRQ, name=Iraq, continent=Asia, surfaceArea=438317.0, population=23115000, gnp=11500.0, capital=1365}
+Country{code=SVK, name=Slovakia, continent=Europe, surfaceArea=49012.0, population=5398700, gnp=20594.0, capital=3209}
+Country{code=SVN, name=Slovenia, continent=Europe, surfaceArea=20256.0, population=1987800, gnp=19756.0, capital=3212}
+Country{code=GNQ, name=Equatorial Guinea, continent=Africa, surfaceArea=28051.0, population=453000, gnp=283.0, capital=2972}
+Country{code=THA, name=Thailand, continent=Asia, surfaceArea=513115.0, population=61399000, gnp=116416.0, capital=3320}
+Country{code=ABW, name=Aruba, continent=North America, surfaceArea=193.0, population=103000, gnp=828.0, capital=129}
+Country{code=ASM, name=American Samoa, continent=Oceania, surfaceArea=199.0, population=68000, gnp=334.0, capital=54}
+Country{code=SWE, name=Sweden, continent=Europe, surfaceArea=449964.0, population=8861400, gnp=226492.0, capital=3048}
+Country{code=ISL, name=Iceland, continent=Europe, surfaceArea=103000.0, population=279000, gnp=8255.0, capital=1449}
+Country{code=MKD, name=Macedonia, continent=Europe, surfaceArea=25713.0, population=2024000, gnp=1694.0, capital=2460}
+Country{code=BEL, name=Belgium, continent=Europe, surfaceArea=30518.0, population=10239000, gnp=249704.0, capital=179}
+Country{code=ISR, name=Israel, continent=Asia, surfaceArea=21056.0, population=6217000, gnp=97477.0, capital=1450}
+Country{code=KWT, name=Kuwait, continent=Asia, surfaceArea=17818.0, population=1972000, gnp=27037.0, capital=2429}
+Country{code=LIE, name=Liechtenstein, continent=Europe, surfaceArea=160.0, population=32300, gnp=1119.0, capital=2446}
+Country{code=DZA, name=Algeria, continent=Africa, surfaceArea=2381741.0, population=31471000, gnp=49982.0, capital=35}
+Country{code=BEN, name=Benin, continent=Africa, surfaceArea=112622.0, population=6097000, gnp=2357.0, capital=187}
+Country{code=ATA, name=Antarctica, continent=Antarctica, surfaceArea=1.312E7, population=0, gnp=0.0, capital=-1}
+Country{code=RUS, name=Russian Federation, continent=Europe, surfaceArea=1.70754E7, population=146934000, gnp=276608.0, capital=3580}
+Country{code=ATF, name=French Southern territories, continent=Antarctica, surfaceArea=7780.0, population=0, gnp=0.0, capital=-1}
+Country{code=ATG, name=Antigua and Barbuda, continent=North America, surfaceArea=442.0, population=68000, gnp=612.0, capital=63}
+Country{code=ITA, name=Italy, continent=Europe, surfaceArea=301316.0, population=57680000, gnp=1161755.0, capital=1464}
+Country{code=SWZ, name=Swaziland, continent=Africa, surfaceArea=17364.0, population=1008000, gnp=1206.0, capital=3244}
+Country{code=TZA, name=Tanzania, continent=Africa, surfaceArea=883749.0, population=33517000, gnp=8005.0, capital=3306}
+Country{code=PAK, name=Pakistan, continent=Asia, surfaceArea=796095.0, population=156483000, gnp=61289.0, capital=2831}
+Country{code=BFA, name=Burkina Faso, continent=Africa, surfaceArea=274000.0, population=11937000, gnp=2425.0, capital=549}
+Country{code=CXR, name=Christmas Island, continent=Oceania, surfaceArea=135.0, population=2500, gnp=0.0, capital=1791}
+Country{code=PAN, name=Panama, continent=North America, surfaceArea=75517.0, population=2856000, gnp=9131.0, capital=2882}
+Country{code=SGP, name=Singapore, continent=Asia, surfaceArea=618.0, population=3567000, gnp=86503.0, capital=3208}
+Country{code=UKR, name=Ukraine, continent=Europe, surfaceArea=603700.0, population=50456000, gnp=42168.0, capital=3426}
+Country{code=SGS, name=South Georgia and the South Sandwich Islands, continent=Antarctica, surfaceArea=3903.0, population=0, gnp=0.0, capital=-1}
+Country{code=KGZ, name=Kyrgyzstan, continent=Asia, surfaceArea=199900.0, population=4699000, gnp=1626.0, capital=2253}
+Country{code=CHE, name=Switzerland, continent=Europe, surfaceArea=41284.0, population=7160400, gnp=264478.0, capital=3248}
+Country{code=BVT, name=Bouvet Island, continent=Antarctica, surfaceArea=59.0, population=0, gnp=0.0, capital=-1}
+Country{code=DJI, name=Djibouti, continent=Africa, surfaceArea=23200.0, population=638000, gnp=382.0, capital=585}
+Country{code=REU, name=Râ€šunion, continent=Africa, surfaceArea=2510.0, population=699000, gnp=8287.0, capital=3017}
+Country{code=CHL, name=Chile, continent=South America, surfaceArea=756626.0, population=15211000, gnp=72949.0, capital=554}
+Country{code=PRI, name=Puerto Rico, continent=North America, surfaceArea=8875.0, population=3869000, gnp=34100.0, capital=2919}
+Country{code=CHN, name=China, continent=Asia, surfaceArea=9572900.0, population=1277558000, gnp=982268.0, capital=1891}
+Country{code=PRK, name=North Korea, continent=Asia, surfaceArea=120538.0, population=24039000, gnp=5332.0, capital=2318}
+Country{code=MLI, name=Mali, continent=Africa, surfaceArea=1240192.0, population=11234000, gnp=2642.0, capital=2482}
+Country{code=BWA, name=Botswana, continent=Africa, surfaceArea=581730.0, population=1622000, gnp=4834.0, capital=204}
+Country{code=HRV, name=Croatia, continent=Europe, surfaceArea=56538.0, population=4473000, gnp=20208.0, capital=2409}
+Country{code=KHM, name=Cambodia, continent=Asia, surfaceArea=181035.0, population=11168000, gnp=5121.0, capital=1800}
+Country{code=IDN, name=Indonesia, continent=Asia, surfaceArea=1904569.0, population=212107000, gnp=84982.0, capital=939}
+Country{code=PRT, name=Portugal, continent=Europe, surfaceArea=91982.0, population=9997600, gnp=105954.0, capital=2914}
+Country{code=MLT, name=Malta, continent=Europe, surfaceArea=316.0, population=380200, gnp=3512.0, capital=2484}
+Country{code=TJK, name=Tajikistan, continent=Asia, surfaceArea=143100.0, population=6188000, gnp=1990.0, capital=3261}
+Country{code=VNM, name=Vietnam, continent=Asia, surfaceArea=331689.0, population=79832000, gnp=21929.0, capital=3770}
+Country{code=CYM, name=Cayman Islands, continent=North America, surfaceArea=264.0, population=38000, gnp=1263.0, capital=553}
+Country{code=PRY, name=Paraguay, continent=South America, surfaceArea=406752.0, population=5496000, gnp=8444.0, capital=2885}
+Country{code=SHN, name=Saint Helena, continent=Africa, surfaceArea=314.0, population=6000, gnp=0.0, capital=3063}
+Country{code=CYP, name=Cyprus, continent=Asia, surfaceArea=9251.0, population=754700, gnp=9333.0, capital=2430}
+Country{code=SYC, name=Seychelles, continent=Africa, surfaceArea=455.0, population=77000, gnp=536.0, capital=3206}
+Country{code=RWA, name=Rwanda, continent=Africa, surfaceArea=26338.0, population=7733000, gnp=2036.0, capital=3047}
+Country{code=BGD, name=Bangladesh, continent=Asia, surfaceArea=143998.0, population=129155000, gnp=32852.0, capital=150}
+Country{code=AUS, name=Australia, continent=Oceania, surfaceArea=7741220.0, population=18886000, gnp=351182.0, capital=135}
+Country{code=AUT, name=Austria, continent=Europe, surfaceArea=83859.0, population=8091800, gnp=211860.0, capital=1523}
+Country{code=LKA, name=Sri Lanka, continent=Asia, surfaceArea=65610.0, population=18827000, gnp=15706.0, capital=3217}
+Country{code=PSE, name=Palestine, continent=Asia, surfaceArea=6257.0, population=3101000, gnp=4173.0, capital=4074}
+Country{code=GAB, name=Gabon, continent=Africa, surfaceArea=267668.0, population=1226000, gnp=5493.0, capital=902}
+Country{code=ZWE, name=Zimbabwe, continent=Africa, surfaceArea=390757.0, population=11669000, gnp=5951.0, capital=4068}
+Country{code=YUG, name=Yugoslavia, continent=Europe, surfaceArea=102173.0, population=10640000, gnp=17000.0, capital=1792}
+Country{code=BGR, name=Bulgaria, continent=Europe, surfaceArea=110994.0, population=8190900, gnp=12178.0, capital=539}
+Country{code=SYR, name=Syria, continent=Asia, surfaceArea=185180.0, population=16125000, gnp=65984.0, capital=3250}
+Country{code=CZE, name=Czech Republic, continent=Europe, surfaceArea=78866.0, population=10278100, gnp=55017.0, capital=3339}
+Country{code=NOR, name=Norway, continent=Europe, surfaceArea=323877.0, population=4478500, gnp=145895.0, capital=2807}
+Country{code=UMI, name=United States Minor Outlying Islands, continent=Oceania, surfaceArea=16.0, population=0, gnp=0.0, capital=-1}
+Country{code=CIV, name=Câ€œte d?Ivoire, continent=Africa, surfaceArea=322463.0, population=14786000, gnp=11345.0, capital=2814}
+Country{code=MMR, name=Myanmar, continent=Asia, surfaceArea=676578.0, population=45611000, gnp=180375.0, capital=2710}
+Country{code=TKL, name=Tokelau, continent=Oceania, surfaceArea=12.0, population=2000, gnp=0.0, capital=3333}
+Country{code=KIR, name=Kiribati, continent=Oceania, surfaceArea=726.0, population=83000, gnp=40.7, capital=2256}
+Country{code=TKM, name=Turkmenistan, continent=Asia, surfaceArea=488100.0, population=4459000, gnp=4397.0, capital=3419}
+Country{code=GRD, name=Grenada, continent=North America, surfaceArea=344.0, population=94000, gnp=318.0, capital=916}
+Country{code=GRC, name=Greece, continent=Europe, surfaceArea=131626.0, population=10545700, gnp=120724.0, capital=2401}
+Country{code=PCN, name=Pitcairn, continent=Oceania, surfaceArea=49.0, population=50, gnp=0.0, capital=2912}
+Country{code=HTI, name=Haiti, continent=North America, surfaceArea=27750.0, population=8222000, gnp=3459.0, capital=929}
+Country{code=GRL, name=Greenland, continent=North America, surfaceArea=2166090.0, population=56000, gnp=0.0, capital=917}
+Country{code=YEM, name=Yemen, continent=Asia, surfaceArea=527968.0, population=18112000, gnp=6041.0, capital=1780}
+Country{code=AFG, name=Afghanistan, continent=Asia, surfaceArea=652090.0, population=22720000, gnp=5976.0, capital=1}
+Country{code=MNG, name=Mongolia, continent=Asia, surfaceArea=1566500.0, population=2662000, gnp=1043.0, capital=2696}
+Country{code=NPL, name=Nepal, continent=Asia, surfaceArea=147181.0, population=23930000, gnp=4768.0, capital=2729}
+Country{code=BHS, name=Bahamas, continent=North America, surfaceArea=13878.0, population=307000, gnp=3527.0, capital=148}
+Country{code=BHR, name=Bahrain, continent=Asia, surfaceArea=694.0, population=617000, gnp=6366.0, capital=149}
+Country{code=MNP, name=Northern Mariana Islands, continent=Oceania, surfaceArea=464.0, population=78000, gnp=0.0, capital=2913}
+Country{code=GBR, name=United Kingdom, continent=Europe, surfaceArea=242900.0, population=59623400, gnp=1378330.0, capital=456}
+Country{code=SJM, name=Svalbard and Jan Mayen, continent=Europe, surfaceArea=62422.0, population=3200, gnp=0.0, capital=938}
+Country{code=DMA, name=Dominica, continent=North America, surfaceArea=751.0, population=71000, gnp=256.0, capital=586}
+Country{code=BIH, name=Bosnia and Herzegovina, continent=Europe, surfaceArea=51197.0, population=3972000, gnp=2841.0, capital=201}
+Country{code=HUN, name=Hungary, continent=Europe, surfaceArea=93030.0, population=10043200, gnp=48267.0, capital=3483}
+Country{code=AGO, name=Angola, continent=Africa, surfaceArea=1246700.0, population=12878000, gnp=6648.0, capital=56}
+Country{code=WSM, name=Samoa, continent=Oceania, surfaceArea=2831.0, population=180000, gnp=141.0, capital=3169}
+Country{code=FRA, name=France, continent=Europe, surfaceArea=551500.0, population=59225700, gnp=1424285.0, capital=2974}
+Country{code=TMP, name=East Timor, continent=Asia, surfaceArea=14874.0, population=885000, gnp=0.0, capital=1522}
+Country{code=MOZ, name=Mozambique, continent=Africa, surfaceArea=801590.0, population=19680000, gnp=2891.0, capital=2698}
+Country{code=NAM, name=Namibia, continent=Africa, surfaceArea=824292.0, population=1726000, gnp=3101.0, capital=2726}
+Country{code=PER, name=Peru, continent=South America, surfaceArea=1285216.0, population=25662000, gnp=64140.0, capital=2890}
+Country{code=DNK, name=Denmark, continent=Europe, surfaceArea=43094.0, population=5330000, gnp=174099.0, capital=3315}
+Country{code=GTM, name=Guatemala, continent=North America, surfaceArea=108889.0, population=11385000, gnp=19008.0, capital=922}
+Country{code=FRO, name=Faroe Islands, continent=Europe, surfaceArea=1399.0, population=43000, gnp=0.0, capital=901}
+Country{code=SLB, name=Solomon Islands, continent=Oceania, surfaceArea=28896.0, population=444000, gnp=182.0, capital=3161}
+Country{code=VAT, name=Holy See (Vatican City State), continent=Europe, surfaceArea=0.4, population=1000, gnp=9.0, capital=3538}
+Country{code=SLE, name=Sierra Leone, continent=Africa, surfaceArea=71740.0, population=4854000, gnp=746.0, capital=3207}
+Country{code=NRU, name=Nauru, continent=Oceania, surfaceArea=21.0, population=12000, gnp=197.0, capital=2728}
+Country{code=AIA, name=Anguilla, continent=North America, surfaceArea=96.0, population=8000, gnp=63.2, capital=62}
+Country{code=GUF, name=French Guiana, continent=South America, surfaceArea=90000.0, population=181000, gnp=681.0, capital=3014}
+Country{code=SLV, name=El Salvador, continent=North America, surfaceArea=21041.0, population=6276000, gnp=11863.0, capital=645}
+Country{code=GUM, name=Guam, continent=Oceania, surfaceArea=549.0, population=168000, gnp=1197.0, capital=921}
+Country{code=FSM, name=Micronesia_Federated States of, continent=Oceania, surfaceArea=702.0, population=119000, gnp=212.0, capital=2689}
+Country{code=DOM, name=Dominican Republic, continent=North America, surfaceArea=48511.0, population=8495000, gnp=15846.0, capital=587}
+Country{code=CMR, name=Cameroon, continent=Africa, surfaceArea=475442.0, population=15085000, gnp=9174.0, capital=1804}
+Country{code=GUY, name=Guyana, continent=South America, surfaceArea=214969.0, population=861000, gnp=722.0, capital=928}
+Country{code=AZE, name=Azerbaijan, continent=Asia, surfaceArea=86600.0, population=7734000, gnp=4127.0, capital=144}
+Country{code=MAC, name=Macao, continent=Asia, surfaceArea=18.0, population=473000, gnp=5749.0, capital=2454}
+Country{code=GEO, name=Georgia, continent=Asia, surfaceArea=69700.0, population=4968000, gnp=6064.0, capital=905}
+Country{code=TON, name=Tonga, continent=Oceania, surfaceArea=650.0, population=99000, gnp=146.0, capital=3334}
+Country{code=NCL, name=New Caledonia, continent=Oceania, surfaceArea=18575.0, population=214000, gnp=3563.0, capital=3493}
+Country{code=SMR, name=San Marino, continent=Europe, surfaceArea=61.0, population=27000, gnp=510.0, capital=3171}
+Country{code=ERI, name=Eritrea, continent=Africa, surfaceArea=117600.0, population=3850000, gnp=650.0, capital=652}
+Country{code=KNA, name=Saint Kitts and Nevis, continent=North America, surfaceArea=261.0, population=38000, gnp=299.0, capital=3064}
+Country{code=MAR, name=Morocco, continent=Africa, surfaceArea=446550.0, population=28351000, gnp=36124.0, capital=2486}
+Country{code=VCT, name=Saint Vincent and the Grenadines, continent=North America, surfaceArea=388.0, population=114000, gnp=285.0, capital=3066}
+Country{code=BLR, name=Belarus, continent=Europe, surfaceArea=207600.0, population=10236000, gnp=13714.0, capital=3520}
+Country{code=MRT, name=Mauritania, continent=Africa, surfaceArea=1025520.0, population=2670000, gnp=998.0, capital=2509}
+Country{code=BLZ, name=Belize, continent=North America, surfaceArea=22696.0, population=241000, gnp=630.0, capital=185}
+Country{code=PHL, name=Philippines, continent=Asia, surfaceArea=300000.0, population=75967000, gnp=65107.0, capital=766}
+Country{code=COD, name=Congo_The Democratic Republic of the, continent=Africa, surfaceArea=2344858.0, population=51654000, gnp=6964.0, capital=2298}
+Country{code=COG, name=Congo, continent=Africa, surfaceArea=342000.0, population=2943000, gnp=2108.0, capital=2296}
+Country{code=ESH, name=Western Sahara, continent=Africa, surfaceArea=266000.0, population=293000, gnp=60.0, capital=2453}
+Country{code=PYF, name=French Polynesia, continent=Oceania, surfaceArea=4000.0, population=235000, gnp=818.0, capital=3016}
+Country{code=URY, name=Uruguay, continent=South America, surfaceArea=175016.0, population=3337000, gnp=20831.0, capital=3492}
+Country{code=COK, name=Cook Islands, continent=Oceania, surfaceArea=236.0, population=20000, gnp=100.0, capital=583}
+Country{code=COM, name=Comoros, continent=Africa, surfaceArea=1862.0, population=578000, gnp=4401.0, capital=2295}
+Country{code=COL, name=Colombia, continent=South America, surfaceArea=1138914.0, population=42321000, gnp=102896.0, capital=2257}
+Country{code=USA, name=United States, continent=North America, surfaceArea=9363520.0, population=278357000, gnp=8510700.0, capital=3813}
+Country{code=ESP, name=Spain, continent=Europe, surfaceArea=505992.0, population=39441700, gnp=553233.0, capital=653}
+Country{code=EST, name=Estonia, continent=Europe, surfaceArea=45227.0, population=1439200, gnp=5328.0, capital=3791}
+Country{code=BMU, name=Bermuda, continent=North America, surfaceArea=53.0, population=65000, gnp=2328.0, capital=191}
+Country{code=MSR, name=Montserrat, continent=North America, surfaceArea=102.0, population=11000, gnp=109.0, capital=2697}
+Country{code=ZMB, name=Zambia, continent=Africa, surfaceArea=752618.0, population=9169000, gnp=3377.0, capital=3162}
+Country{code=KOR, name=South Korea, continent=Asia, surfaceArea=99434.0, population=46844000, gnp=320749.0, capital=2331}
+Country{code=SOM, name=Somalia, continent=Africa, surfaceArea=637657.0, population=10097000, gnp=935.0, capital=3214}
+Country{code=VUT, name=Vanuatu, continent=Oceania, surfaceArea=12189.0, population=190000, gnp=261.0, capital=3537}
+Country{code=ECU, name=Ecuador, continent=South America, surfaceArea=283561.0, population=12646000, gnp=19770.0, capital=594}
+Country{code=ALB, name=Albania, continent=Europe, surfaceArea=28748.0, population=3401200, gnp=3205.0, capital=34}
+Country{code=ETH, name=Ethiopia, continent=Africa, surfaceArea=1104300.0, population=62565000, gnp=6353.0, capital=756}
+Country{code=MCO, name=Monaco, continent=Europe, surfaceArea=1.5, population=34000, gnp=776.0, capital=2695}
+Country{code=NER, name=Niger, continent=Africa, surfaceArea=1267000.0, population=10730000, gnp=1706.0, capital=2738}
+Country{code=LAO, name=Laos, continent=Asia, surfaceArea=236800.0, population=5433000, gnp=1292.0, capital=2432}
+Country{code=VEN, name=Venezuela, continent=South America, surfaceArea=912050.0, population=24170000, gnp=95023.0, capital=3539}
+Country{code=GHA, name=Ghana, continent=Africa, surfaceArea=238533.0, population=20212000, gnp=7137.0, capital=910}
+Country{code=CPV, name=Cape Verde, continent=Africa, surfaceArea=4033.0, population=428000, gnp=435.0, capital=1859}
+Country{code=MDA, name=Moldova, continent=Europe, surfaceArea=33851.0, population=4380000, gnp=1579.0, capital=2690}
+Country{code=MTQ, name=Martinique, continent=North America, surfaceArea=1102.0, population=395000, gnp=2731.0, capital=2508}
+Country{code=MDG, name=Madagascar, continent=Africa, surfaceArea=587041.0, population=15942000, gnp=3750.0, capital=2455}
+Country{code=SPM, name=Saint Pierre and Miquelon, continent=North America, surfaceArea=242.0, population=7000, gnp=0.0, capital=3067}
+Country{code=NFK, name=Norfolk Island, continent=Oceania, surfaceArea=36.0, population=2000, gnp=0.0, capital=2806}
+Country{code=LBN, name=Lebanon, continent=Asia, surfaceArea=10400.0, population=3282000, gnp=17121.0, capital=2438}
+Country{code=LBR, name=Liberia, continent=Africa, surfaceArea=111369.0, population=3154000, gnp=2012.0, capital=2440}
+Country{code=BOL, name=Bolivia, continent=South America, surfaceArea=1098581.0, population=8329000, gnp=8571.0, capital=194}
+Country{code=MDV, name=Maldives, continent=Asia, surfaceArea=298.0, population=286000, gnp=199.0, capital=2463}
+Country{code=GIB, name=Gibraltar, continent=Europe, surfaceArea=6.0, population=25000, gnp=258.0, capital=915}
+Country{code=LBY, name=Libyan Arab Jamahiriya, continent=Africa, surfaceArea=1759540.0, population=5605000, gnp=44806.0, capital=2441}
+Country{code=HKG, name=Hong Kong, continent=Asia, surfaceArea=1075.0, population=6782000, gnp=166448.0, capital=937}
+Country{code=CAF, name=Central African Republic, continent=Africa, surfaceArea=622984.0, population=3615000, gnp=1054.0, capital=1889}
+Country{code=LSO, name=Lesotho, continent=Africa, surfaceArea=30355.0, population=2153000, gnp=1061.0, capital=2437}
+Country{code=NGA, name=Nigeria, continent=Africa, surfaceArea=923768.0, population=111506000, gnp=65707.0, capital=2754}
+Country{code=MUS, name=Mauritius, continent=Africa, surfaceArea=2040.0, population=1158000, gnp=4251.0, capital=2511}
+Country{code=LCA, name=Saint Lucia, continent=North America, surfaceArea=622.0, population=154000, gnp=571.0, capital=3065}
+Country{code=JOR, name=Jordan, continent=Asia, surfaceArea=88946.0, population=5083000, gnp=7526.0, capital=1786}
+Country{code=GIN, name=Guinea, continent=Africa, surfaceArea=245857.0, population=7430000, gnp=2352.0, capital=926}
+Country{code=VGB, name=Virgin Islands_British, continent=North America, surfaceArea=151.0, population=21000, gnp=612.0, capital=537}
+Country{code=CAN, name=Canada, continent=North America, surfaceArea=9970610.0, population=31147000, gnp=598862.0, capital=1822}
+Country{code=ROM, name=Romania, continent=Europe, surfaceArea=238391.0, population=22455500, gnp=38158.0, capital=3018}
+Country{code=TCA, name=Turks and Caicos Islands, continent=North America, surfaceArea=430.0, population=17000, gnp=96.0, capital=3423}
+Country{code=TCD, name=Chad, continent=Africa, surfaceArea=1284000.0, population=7651000, gnp=1208.0, capital=3337}
+Country{code=AND, name=Andorra, continent=Europe, surfaceArea=468.0, population=78000, gnp=1630.0, capital=55}
+Country{code=CRI, name=Costa Rica, continent=North America, surfaceArea=51100.0, population=4023000, gnp=10226.0, capital=584}
+Country{code=IND, name=India, continent=Asia, surfaceArea=3287263.0, population=1013662000, gnp=447114.0, capital=1109}
+Country{code=MEX, name=Mexico, continent=North America, surfaceArea=1958201.0, population=98881000, gnp=414972.0, capital=2515}
+Country{code=KAZ, name=Kazakstan, continent=Asia, surfaceArea=2724900.0, population=16223000, gnp=24375.0, capital=1864}
+Country{code=SAU, name=Saudi Arabia, continent=Asia, surfaceArea=2149690.0, population=21607000, gnp=137635.0, capital=3173}
+Country{code=ANT, name=Netherlands Antilles, continent=North America, surfaceArea=800.0, population=217000, gnp=1941.0, capital=33}
+Country{code=JPN, name=Japan, continent=Asia, surfaceArea=377829.0, population=126714000, gnp=3787042.0, capital=1532}
+Country{code=LTU, name=Lithuania, continent=Europe, surfaceArea=65301.0, population=3698500, gnp=10692.0, capital=2447}
+Country{code=TTO, name=Trinidad and Tobago, continent=North America, surfaceArea=5130.0, population=1295000, gnp=6232.0, capital=3336}
+Country{code=PLW, name=Palau, continent=Oceania, surfaceArea=459.0, population=19000, gnp=105.0, capital=2881}
+Country{code=HMD, name=Heard Island and McDonald Islands, continent=Antarctica, surfaceArea=359.0, population=0, gnp=0.0, capital=-1}
+Country{code=MWI, name=Malawi, continent=Africa, surfaceArea=118484.0, population=10925000, gnp=1687.0, capital=2462}
+Country{code=NIC, name=Nicaragua, continent=North America, surfaceArea=130000.0, population=5074000, gnp=1988.0, capital=2734}
+Country{code=CCK, name=Cocos (Keeling) Islands, continent=Oceania, surfaceArea=14.0, population=600, gnp=0.0, capital=2317}
+Country{code=FIN, name=Finland, continent=Europe, surfaceArea=338145.0, population=5171300, gnp=121914.0, capital=3236}
+Country{code=TUN, name=Tunisia, continent=Africa, surfaceArea=163610.0, population=9586000, gnp=20026.0, capital=3349}
+Country{code=LUX, name=Luxembourg, continent=Europe, surfaceArea=2586.0, population=435700, gnp=16321.0, capital=2452}
+Country{code=UGA, name=Uganda, continent=Africa, surfaceArea=241038.0, population=21778000, gnp=6313.0, capital=3425}
+Country{code=IOT, name=British Indian Ocean Territory, continent=Africa, surfaceArea=78.0, population=0, gnp=0.0, capital=-1}
+Country{code=BRA, name=Brazil, continent=South America, surfaceArea=8547403.0, population=170115000, gnp=776739.0, capital=211}
+Country{code=TUR, name=Turkey, continent=Asia, surfaceArea=774815.0, population=66591000, gnp=210721.0, capital=3358}
+Country{code=BRB, name=Barbados, continent=North America, surfaceArea=430.0, population=270000, gnp=2223.0, capital=174}
+Country{code=TUV, name=Tuvalu, continent=Oceania, surfaceArea=26.0, population=12000, gnp=6.0, capital=3424}
+Country{code=DEU, name=Germany, continent=Europe, surfaceArea=357022.0, population=82164700, gnp=2133367.0, capital=3068}
+Country{code=EGY, name=Egypt, continent=Africa, surfaceArea=1001449.0, population=68470000, gnp=82710.0, capital=608}
+Country{code=LVA, name=Latvia, continent=Europe, surfaceArea=64589.0, population=2424200, gnp=6398.0, capital=2434}
+Country{code=JAM, name=Jamaica, continent=North America, surfaceArea=10990.0, population=2583000, gnp=6871.0, capital=1530}
+Country{code=NIU, name=Niue, continent=Oceania, surfaceArea=260.0, population=2000, gnp=0.0, capital=2805}
+Country{code=VIR, name=Virgin Islands_U.S., continent=North America, surfaceArea=347.0, population=93000, gnp=0.0, capital=4067}
+Country{code=ZAF, name=South Africa, continent=Africa, surfaceArea=1221037.0, population=40377000, gnp=116729.0, capital=716}
+Country{code=BRN, name=Brunei, continent=Asia, surfaceArea=5765.0, population=328000, gnp=11705.0, capital=538}
+Country{code=HND, name=Honduras, continent=North America, surfaceArea=112088.0, population=6485000, gnp=5333.0, capital=933}

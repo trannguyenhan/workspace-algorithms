@@ -12,7 +12,7 @@ import java.util.TreeMap;
 
 public class Bai2 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader file_reader = new BufferedReader(new FileReader("/media/trannguyenhan01092000/LEARN/meganz/MyFolder/vcc_train/bai_tap_phan_1/input_2/01.txt"));
+		BufferedReader file_reader = new BufferedReader(new FileReader("resource/input_2/01.txt"));
 		Map<String, Integer> dictionary = new TreeMap<>();
 		
 		String str;

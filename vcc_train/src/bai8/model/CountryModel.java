@@ -78,4 +78,9 @@ public class CountryModel {
 	public void setCapital(int capital) {
 		this.capital = capital;
 	}
+	
+	@Override
+	public String toString() {
+		return code + " " + name + " " + continent + " " + gnp + " " + surfaceArea + " " + population + " " + capital;
+	}
 }

@@ -17,7 +17,7 @@ public class Bai3 {
 	
 	public static void main(String[] args) throws FileNotFoundException, InterruptedException, ExecutionException {
 		// get list path file
-		Support sp = new Support("/media/trannguyenhan01092000/LEARN/meganz/MyFolder/vcc_train/bai_tap_phan_1/input_3");
+		Support sp = new Support("resource/input_3");
 		List<String> listPathFile = sp.getListPathFile();
 		
 		// create thread pool

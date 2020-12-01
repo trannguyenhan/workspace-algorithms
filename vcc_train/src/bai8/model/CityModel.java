@@ -49,5 +49,8 @@ public class CityModel {
 		this.population = population;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return id + " " + name + " " + population + " " + code; 
+	}
 }

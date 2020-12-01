@@ -16,7 +16,7 @@ public class CountryServices {
 	public CountryServices() throws IOException {
 		listCountry = new ArrayList<>();
 		
-		String pathFile = "/media/trannguyenhan01092000/LEARN/meganz/MyFolder/vcc_train/bai_tap_phan_1/input_8/countries.dat.dat";
+		String pathFile = "resource/input_8/countries.dat.dat";
 		BufferedReader fileReader = new BufferedReader(new FileReader(pathFile));
 		
 		String dataLine = fileReader.readLine();

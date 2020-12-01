@@ -17,13 +17,13 @@ public class CityServices {
 	public CityServices() throws IOException {
 		listCity = new ArrayList<>();
 		
-		String pathFile = "/media/trannguyenhan01092000/LEARN/meganz/MyFolder/vcc_train/bai_tap_phan_1/input_8/cities.dat";
+		String pathFile = "resource/input_8/cities.dat";
 		BufferedReader fileReader = new BufferedReader(new FileReader(pathFile));
 		
 		String dataLine = fileReader.readLine();
 		while(dataLine != null) {
 			String tmp1 = dataLine.substring(5);
-			StringTokenizer stringTokenizer = new StringTokenizer(tmp1, "[],");
+			StringTokenizer stringTokenizer = new StringTokenizer(tmp1, ",");
 			
 			List<String> listDataLine = new ArrayList<>();
 			while(stringTokenizer.hasMoreTokens()) {
@@ -38,14 +38,7 @@ public class CityServices {
 			for(int i=0; i<listDataLine.size(); i++) {
 				stringTokenizer = new StringTokenizer(listDataLine.get(i), "=");
 				String key = stringTokenizer.nextToken();
-				String value = null;
-				try {
-					value = stringTokenizer.nextToken();
-				} catch (Exception e) {
-					break;
-					// TODO: handle exception
-				}
-				
+				String value = stringTokenizer.nextToken();
 				
 				switch (i) {
 				case 0:
@@ -58,6 +51,7 @@ public class CityServices {
 					population = Integer.parseInt(value);
 					break;
 				case 3:
+					value = value.substring(0, value.length() - 1);
 					code = value;
 					break;
 				default:
