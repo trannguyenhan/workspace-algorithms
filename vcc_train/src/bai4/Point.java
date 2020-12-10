@@ -55,4 +55,14 @@ public class Point {
 		System.out.println("hoan thanh tao set!");
 		return setPoints;
 	}
+	
+	public static void main(String[] args) {
+		Set<Point> setPoints = new HashSet<>();
+		setPoints.add(new Point(1,2));
+		setPoints.add(new Point(1,2));
+		
+		System.out.println(setPoints.size());
+		
+		
+	}
 }
