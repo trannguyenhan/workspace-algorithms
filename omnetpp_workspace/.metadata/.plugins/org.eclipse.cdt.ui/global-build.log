@@ -1,0 +1,155 @@
+17:55:17 **** Clean-only build of configuration release for project 01GettingStarted ****
+make MODE=release clean 
+cd src && make clean
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/01GettingStarted/src'
+Cleaning 01GettingStarted
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/01GettingStarted/src'
+18:03:01 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+21:47:04 **** Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+22:08:24 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+22:10:12 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+22:24:27 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+txc4.cc:21:17: error: return type specification for constructor invalid
+   21 | void Txc4::Txc4(){
+      |                 ^
+txc4.cc:25:18: error: return type specification for destructor invalid
+   25 | void Txc4::~Txc4(){
+      |                  ^
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: *** [Makefile:104: ../out/gcc-release/src/txc4.o] Error 1
+make: *** [Makefile:2: all] Error 2
+"make MODE=release all" terminated with exit code 2. Build might be incomplete.
+22:25:16 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+22:26:12 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+22:58:30 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:00:12 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:03:05 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:03:53 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:04:56 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:17:40 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:18:04 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:19:16 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:20:59 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+txc4.cc
+Creating executable: ../out/gcc-release/src/02EnhancingTicToc
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:21:18 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:21:46 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+23:22:25 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+07:46:20 **** Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+07:48:24 **** Incremental Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+07:54:16 **** Incremental Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+08:00:59 **** Incremental Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+08:01:30 **** Incremental Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,6 @@
+08:01:30 **** Incremental Build of configuration release for project tictoc ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+
+08:01:31 Build Finished. 0 errors, 0 warnings. (took 423ms)
+

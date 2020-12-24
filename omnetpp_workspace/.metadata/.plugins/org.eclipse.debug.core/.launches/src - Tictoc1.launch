@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.omnetpp.launch.simulationLaunchConfigurationType">
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="${opp_root}/misc/gdb/gdbinit.py"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdb"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="/GettingStarted"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/GettingStarted/src/tictoc1.ned"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.omnetpp.launch.ADDITIONAL_ARG" value=""/>
+    <intAttribute key="org.omnetpp.launch.BATCH_SIZE" value="1"/>
+    <intAttribute key="org.omnetpp.launch.BUILD_BEFORE_LAUNCH" value="0"/>
+    <stringAttribute key="org.omnetpp.launch.CONFIG_NAME" value="Tictoc1"/>
+    <stringAttribute key="org.omnetpp.launch.EXECUTABLE" value="/GettingStarted/src/GettingStarted"/>
+    <stringAttribute key="org.omnetpp.launch.IMAGE_PATH" value="${opp_image_path:/GettingStarted/src}"/>
+    <stringAttribute key="org.omnetpp.launch.INI_FILES" value="omnetpp.ini"/>
+    <stringAttribute key="org.omnetpp.launch.NED_PATH" value="${opp_ned_path:/GettingStarted/src}"/>
+    <intAttribute key="org.omnetpp.launch.NUM_CONCURRENT_PROCESSES" value="1"/>
+    <stringAttribute key="org.omnetpp.launch.OPP_DEBUGMODE_DEBUG_ON_ERRORS" value="true"/>
+    <stringAttribute key="org.omnetpp.launch.SHARED_LIBS" value="${opp_shared_libs:/GettingStarted/src}"/>
+    <intAttribute key="org.omnetpp.launch.SWITCH_CONFIG_BEFORE_BUILD" value="0"/>
+    <stringAttribute key="org.omnetpp.launch.WORKING_DIRECTORY" value="/GettingStarted/src"/>
+</launchConfiguration>

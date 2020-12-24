@@ -1,0 +1,3 @@
+package thu;
+
+@license(LGPL);

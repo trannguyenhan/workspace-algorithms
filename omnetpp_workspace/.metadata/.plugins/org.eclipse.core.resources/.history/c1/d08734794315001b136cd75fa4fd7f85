@@ -1,0 +1,40 @@
+#include<string.h>
+#include<omnetpp.h>
+
+using namespace omnetpp;
+
+class Txc4 : public cSimpleModule{
+    private:
+        int count;
+        cMessage *tictocMessage;
+        cMessage *event;
+    protected:
+        virtual void initialize() override;
+        virtual void handleMessage(cMessage *msg);
+};
+
+Define_Module(Txc4);
+
+void Txc4::initialize(){
+    count = par("limit");
+    WATCH(count);
+    if(par("sendMessage").boolValue()){
+        cMessage *msg = new cMessage("init");
+        send(msg, "out");
+    }
+}
+
+void Txc4::handleMessage(cMessage *msg){
+    count--;
+    if(count == 0){
+        EV <<"ket thuc rooi!";
+        delete msg;
+    } else {
+        if(strcmp("tic",getName()) == 0)
+            EV << "Hello_tic";
+        else if(strcmp("toc",getName()) == 0)
+            EV << "Hello_toc";
+        else EV << "Hello_server";
+        send(msg, "out");
+    }
+}

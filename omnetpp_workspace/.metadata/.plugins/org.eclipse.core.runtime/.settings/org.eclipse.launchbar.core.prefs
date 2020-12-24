@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:tictoc,org.eclipse.launchbar.core.descriptorType.default\:tictoc (1),org.eclipse.launchbar.core.descriptorType.default\:src,org.eclipse.launchbar.core.descriptorType.default\:src - Tictoc1,org.eclipse.launchbar.core.descriptorType.default\:src (1),org.eclipse.launchbar.core.descriptorType.default\:src - Tictoc1 (2),org.eclipse.launchbar.core.descriptorType.default\:02EnhancingTicToc,org.eclipse.launchbar.core.descriptorType.default\:02EnhancingTicToc (1),org.eclipse.launchbar.core.descriptorType.default\:src - Tictoc2,org.eclipse.launchbar.core.descriptorType.default\:src - tictoc3,org.eclipse.launchbar.core.descriptorType.default\:src - Tictoc1 (1),org.eclipse.launchbar.core.descriptorType.default\:src - Tictoc4,org.eclipse.launchbar.core.descriptorType.default\:tictoc - Tictoc3,org.eclipse.launchbar.core.descriptorType.default\:tictoc - Tictoc8
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:02EnhancingTicToc\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:02EnhancingTicToc\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:src\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:src\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:src\ -\ Tictoc1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:src\ -\ Tictoc1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:tictoc/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:tictoc/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

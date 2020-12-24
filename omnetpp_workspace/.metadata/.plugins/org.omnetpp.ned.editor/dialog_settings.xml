@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ViewerSettings">
+		<item key="_02enhancingtictoc.tictoc2:iconScale" value="1.25"/>
+	</section>
+	<section name="org.omnetpp.ned.editor.graph.misc.ParametersDialog">
+		<item key="DIALOG_X_ORIGIN" value="94"/>
+		<item key="DIALOG_Y_ORIGIN" value="81"/>
+		<item key="DIALOG_WIDTH" value="836"/>
+		<item key="DIALOG_HEIGHT" value="455"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.omnetpp.ned.editor.graph.dialogs.PropertiesDialog:submodule">
+		<item key="activePage" value="2"/>
+		<item key="DIALOG_X_ORIGIN" value="266"/>
+		<item key="DIALOG_Y_ORIGIN" value="57"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_HEIGHT" value="724"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.omnetpp.ned.editor.graph.dialogs.PropertiesDialog:simple-module">
+		<item key="activePage" value="1"/>
+		<item key="DIALOG_X_ORIGIN" value="462"/>
+		<item key="DIALOG_Y_ORIGIN" value="106"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_HEIGHT" value="608"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.omnetpp.ned.editor.graph.dialogs.PropertiesDialog:connection">
+		<item key="activePage" value="0"/>
+		<item key="DIALOG_X_ORIGIN" value="91"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="842"/>
+		<item key="DIALOG_HEIGHT" value="666"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

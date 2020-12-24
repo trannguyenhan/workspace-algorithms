@@ -1,0 +1,18 @@
+# This file is shared by all tictoc simulations.
+# Lines beginning with `#' are comments
+
+[General]
+# nothing here
+
+[Config Tictoc1]
+network = Tictoc1
+
+[Config Tictoc2]
+network = Tictoc2
+
+[Config Tictoc3]
+network = Tictoc3
+
+[Config Tictoc4]
+network = Tictoc4
+Tictoc4.*.limit = 10

@@ -1,0 +1,9 @@
+23:22:25 **** Incremental Build of configuration release for project 02EnhancingTicToc ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/02EnhancingTicToc/src'
+
+23:22:25 Build Finished. 0 errors, 0 warnings. (took 480ms)
+
