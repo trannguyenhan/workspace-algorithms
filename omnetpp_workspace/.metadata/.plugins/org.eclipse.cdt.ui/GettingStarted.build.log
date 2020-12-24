@@ -1,9 +1,0 @@
-20:13:54 **** Incremental Build of configuration release for project GettingStarted ****
-make MODE=release all 
-cd src && make
-make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/GettingStarted/src'
-make[1]: Nothing to be done for 'all'.
-make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/GettingStarted/src'
-
-20:13:54 Build Finished. 0 errors, 0 warnings. (took 374ms)
-

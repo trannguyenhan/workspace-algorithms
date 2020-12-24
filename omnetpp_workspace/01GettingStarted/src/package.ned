@@ -1,3 +1,0 @@
-package gettingstarted;
-
-@license(LGPL);

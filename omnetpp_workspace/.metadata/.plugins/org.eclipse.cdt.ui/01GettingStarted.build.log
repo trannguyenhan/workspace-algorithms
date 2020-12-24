@@ -1,9 +1,0 @@
-17:55:17 **** Clean-only build of configuration release for project 01GettingStarted ****
-make MODE=release clean 
-cd src && make clean
-make[1]: Entering directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/01GettingStarted/src'
-Cleaning 01GettingStarted
-make[1]: Leaving directory '/media/trannguyenhan01092000/LEARN/omnetpp[W]/01GettingStarted/src'
-
-17:55:17 Build Finished. 0 errors, 0 warnings. (took 781ms)
-

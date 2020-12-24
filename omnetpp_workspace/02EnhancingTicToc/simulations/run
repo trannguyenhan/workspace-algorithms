@@ -1,4 +1,0 @@
-#!/bin/sh
-cd `dirname $0`
-../src/_02enhancingtictoc -n .:../src $*
-# for shared lib, use: opp_run -l ../src/_02enhancingtictoc -n .:../src $*
