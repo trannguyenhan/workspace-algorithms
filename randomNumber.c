@@ -5,7 +5,7 @@
 
 // Sinh so nguyen ngau nhien trong doan [min,max]
 int randomInt(int Min, int Max){
-    srand((int)time(0));
+    //srand((int)time(0));
     return Min + rand() % (Max + 1 - Min);
 }
 
@@ -17,5 +17,14 @@ double randomDou(int Min, int Max){
 }
 
 int main(){
-    printf("%.2f",randomDou(0,5));
+    FILE *f;
+    f = fopen("/media/trannguyenhan01092000/LEARN/dataset/random_number/number-random.txt", "w");
+
+    for(int i=0; i<1000; i++){
+        int run = randomInt(0,10000);
+        printf("%d\n",run);
+        fprintf(f, "%d\n", run);
+    }
+
+    fclose(f);
 }
