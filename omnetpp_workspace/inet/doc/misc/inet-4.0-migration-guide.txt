@@ -1,2 +1,0 @@
-INET Migration Guide is now online. See https://inet.omnetpp.org/docs/migration-guide.
-Source is under inet/doc/src/migration-guide.
