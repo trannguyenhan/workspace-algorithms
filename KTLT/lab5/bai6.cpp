@@ -20,10 +20,10 @@ int main(){
         cin >> a;
         char calA = cal(a);
 
-        if (calA == 'A') ++A; continue;
-        if (calA == 'B') ++B; continue;
-        if (calA == 'C') ++C; continue;
-        if (calA == 'D') ++D; continue;
+        if (calA == 'A') ++A;
+        if (calA == 'B') ++B;
+        if (calA == 'C') ++C;
+        if (calA == 'D') ++D;
         if (calA == 'F') ++F;
     }
     cout << A << " " << B << " " << C << " " << D << " " << F;

@@ -4,8 +4,7 @@ const int MAX = 100005;
 
 int n, m; // n vertex, m edge
 vector< vector<int> > vt;
-vector<int> part1;
-vector<int> part2;
+int color[MAX]; // 1 : red, 2 : blue
 
 void input(){
     cin >> n >> m;
@@ -18,64 +17,30 @@ void input(){
         vt[tmp1].push_back(tmp2);
         vt[tmp2].push_back(tmp1);
     }
+
+    for(int i=1; i<=n; i++) color[i] = 0; // no color
 }
 
 bool solve(){
-    set<int> no_put_part1;
-    set<int> no_put_part2;
-    int mark1 = 0;
-    int mark2 = 0;
+    queue<int> q;
+    q.push(1);
+    color[1] = 1;
 
-    for(int i=1; i<=n; i++){
-        //cout << "check " << i << " : ";
-        // check part1
-        auto find_d = find(no_put_part1.begin(), no_put_part1.end(),i);
-        if(find_d == no_put_part1.end()){
-            set<int> tmp_part1(no_put_part1);
-            for(int v : vt[i]){
-                tmp_part1.insert(v);
-            }
+    while(!q.empty()){
+        int x = q.front(); q.pop();
 
-            mark1 = tmp_part1.size() + no_put_part2.size();
-        }
-
-        find_d = find(no_put_part2.begin(), no_put_part2.end(),i);
-        if(find_d == no_put_part2.end()){
-            set<int> tmp_part2(no_put_part2);
-            for(int v : vt[i]){
-                tmp_part2.insert(v);
-            }
-
-            mark2 = tmp_part2.size() + no_put_part1.size();
-        }
-
-        //cout << mark1 << " " << mark2 << endl;
-        if(mark1 == 0 && mark2 == 0){
-            return false;
-        } else {
-            if(mark1 == 0 && mark2 != 0){
-                for(int v : vt[i]){
-                    no_put_part1.insert(v);
-                }
-            } else if(mark1 != 0 && mark2 == 0){
-                for(int v : vt[i]){
-                    no_put_part2.insert(v);
+        for(int v : vt[x]){
+            if(color[v] == 0){
+                q.push(v);
+                if(color[x] == 1){
+                    color[v] = 2;
+                } else if(color[x] == 2){
+                    color[v] = 1;
                 }
             } else {
-                if(mark1 < mark2){
-                    for(int v : vt[i]){
-                        no_put_part1.insert(v);
-                    }
-                } else {
-                    for(int v : vt[i]){
-                        no_put_part2.insert(v);
-                    }
-                }
+                if(color[v] == color[x]) return false;
             }
         }
-
-        mark1 = 0;
-        mark2 = 0;
     }
 
     return true;

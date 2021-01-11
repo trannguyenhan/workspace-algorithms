@@ -32,7 +32,7 @@ void explore(int x){
 void dfs(){
     for(int v=1; v<=n; v++){
         if(!visited[v]){
-             cnt++;
+            cnt++;
             explore(v);
         }
     }
