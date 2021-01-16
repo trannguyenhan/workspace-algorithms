@@ -1,0 +1,172 @@
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #888888">// ***** ductv</span>
+<span style="color: #888888">//       3/3/2017</span>
+<span style="color: #888888">// ***** Code khong toi uu!  sua de chay trong O(n)?</span>
+
+<span style="color: #557799">#include &lt;iostream&gt;</span>
+<span style="color: #008800; font-weight: bold">using</span> <span style="color: #008800; font-weight: bold">namespace</span> std;
+
+<span style="color: #557799">#define OK false</span>
+<span style="color: #557799">#define CAM true </span>
+
+<span style="color: #557799">#define MAX 100000</span>
+
+
+<span style="color: #888888">// Input: prufer code trong prufer[1][.]</span>
+<span style="color: #888888">//        voi n2 la n - 2 (n la so dinh cua cay)</span>
+<span style="color: #888888">// Muc tieu: xay dung prufer[0][.]</span>
+<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">pruferConstruction</span>(<span style="color: #333399; font-weight: bold">int</span> n2, <span style="color: #333399; font-weight: bold">int</span> prufer[<span style="color: #0000DD; font-weight: bold">2</span>][MAX])
+{
+  <span style="color: #333399; font-weight: bold">bool</span> phantu[MAX] <span style="color: #333333">=</span> {<span style="color: #0000DD; font-weight: bold">0</span>};     <span style="color: #888888">// cac phan tu co the xuat hien o dong tren (OK) hoac khong (CAM)</span>
+
+  prufer[<span style="color: #0000DD; font-weight: bold">1</span>][n2] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;           <span style="color: #888888">// Them phan tu thu n-2+1 la 0</span>
+  
+  <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> n2<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>; i<span style="color: #333333">++</span>) phantu[prufer[<span style="color: #0000DD; font-weight: bold">1</span>][i]] <span style="color: #333333">=</span> CAM;    <span style="color: #888888">// Khoi tao:</span>
+                                                                <span style="color: #888888">// Moi phan tu xuat hien trong prufer code bi cam</span>
+
+  <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> n2<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>; i<span style="color: #333333">++</span>)                          <span style="color: #888888">// Tinh phan tu thu i cua dong thu 1</span>
+    {
+
+      <span style="color: #333399; font-weight: bold">int</span> min <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;  <span style="color: #008800; font-weight: bold">while</span> (phantu[min] <span style="color: #333333">==</span> CAM) min<span style="color: #333333">++</span>;     <span style="color: #888888">// tim phan tu nho nhat khong bi cam (KHONG TOI UU!!!)</span>
+      
+      prufer[<span style="color: #0000DD; font-weight: bold">0</span>][i] <span style="color: #333333">=</span> min;                                 <span style="color: #888888">// phan tu nay chinh la dong 1</span>
+      phantu[min] <span style="color: #333333">=</span> CAM;                                  <span style="color: #888888">// va phan tu nay khong co mat phia sau nua</span>
+
+
+      phantu[prufer[<span style="color: #0000DD; font-weight: bold">1</span>][i]] <span style="color: #333333">=</span> OK;                          <span style="color: #888888">// prufer[1][i] co the dung cho phan tu tiep theo</span>
+      
+      <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> k <span style="color: #333333">=</span> i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>; k <span style="color: #333333">&lt;</span> n2<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>; k<span style="color: #333333">++</span> )                   <span style="color: #888888">// tru khi prufer[1][i] co mat o phia sau (CODE KHONG TOI UU !!!)</span>
+	<span style="color: #008800; font-weight: bold">if</span> (prufer[<span style="color: #0000DD; font-weight: bold">1</span>][i] <span style="color: #333333">==</span> prufer[<span style="color: #0000DD; font-weight: bold">1</span>][k])
+	  {
+	    phantu[prufer[<span style="color: #0000DD; font-weight: bold">1</span>][i]] <span style="color: #333333">=</span> CAM;
+	    <span style="color: #008800; font-weight: bold">break</span>;
+	  }
+    }
+  
+}
+
+<span style="color: #888888">// Ghi ra cay voi n dinh</span>
+<span style="color: #888888">// o dang  .dot de hien thi voi graphviz</span>
+<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">printDot</span>(<span style="color: #333399; font-weight: bold">int</span> n, <span style="color: #333399; font-weight: bold">int</span> tree[<span style="color: #0000DD; font-weight: bold">2</span>][MAX])
+{
+  cout<span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff0f0">&quot;graph test {&quot;</span><span style="color: #333333">&lt;&lt;</span>endl;
+
+  <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> n<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>; i<span style="color: #333333">++</span>) 
+    cout<span style="color: #333333">&lt;&lt;</span>tree[<span style="color: #0000DD; font-weight: bold">0</span>][i]<span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff0f0">&quot; -- &quot;</span><span style="color: #333333">&lt;&lt;</span>tree[<span style="color: #0000DD; font-weight: bold">1</span>][i]<span style="color: #333333">&lt;&lt;</span>endl;
+  
+  cout<span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff0f0">&quot;}&quot;</span>;
+  
+}
+
+<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">randomPruferCode</span> (<span style="color: #333399; font-weight: bold">int</span> n2, <span style="color: #333399; font-weight: bold">int</span> prufer[<span style="color: #0000DD; font-weight: bold">2</span>][MAX])
+{
+  srand (time(<span style="color: #007020">NULL</span>));  
+  <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> n2; i<span style="color: #333333">++</span>)
+    {
+
+      prufer[<span style="color: #0000DD; font-weight: bold">1</span>][i] <span style="color: #333333">=</span> rand() <span style="color: #333333">%</span> (n2 <span style="color: #333333">+</span> <span style="color: #0000DD; font-weight: bold">2</span>) ;
+
+    }  
+}
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>(<span style="color: #333399; font-weight: bold">int</span> argc, <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span>argv[])
+{
+  <span style="color: #333399; font-weight: bold">int</span> n2 <span style="color: #333333">=</span> MAX<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">2</span>;                 <span style="color: #888888">//n-2 phan tu</span>
+
+  <span style="color: #333399; font-weight: bold">int</span> prufer[<span style="color: #0000DD; font-weight: bold">2</span>][MAX];<span style="color: #888888">//  = {</span>
+  <span style="color: #888888">//   {0},</span>
+  <span style="color: #888888">//   {2, 4, 0, 3, 3,1}         // prufer code o dong thu 2 </span>
+  <span style="color: #888888">// };</span>
+
+  randomPruferCode(n2, prufer);
+  pruferConstruction(n2, prufer);
+  <span style="color: #888888">//  printDot(n2+2, prufer);</span>
+  
+  
+  <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></td></tr></table></div>
