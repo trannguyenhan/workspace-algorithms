@@ -1,5 +1,5 @@
 # WorkspaceAlgorithm
-Website : https://codeforces.com/ and https://vn.spoj.com/
+Website : https://codeforces.com/ và https://vn.spoj.com/
 
 ---
 ### Một số trang luyện tập thuật toán tốt: <br />
