@@ -1,0 +1,1 @@
+Các loại cấu trúc dữ liệu, thuật toán này là các loại cấu trúc dữ liệu, thuật toán được sử dụng nhiều, sử dụng đi sử dụng lại mà gần như chúng không có thay đổi gì, vì thế code trước các khung của các thuật toán này cũng sẽ giúp giảm bớt thời gian khi làm các bài toán mà cần tới các cấu trúc dữ liệu hay các thuật toán này.
